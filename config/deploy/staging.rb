@@ -22,6 +22,7 @@
 # role :db,  %w{deploy@example.com}
 # role :web, %w{deploy@52.196.117.182}
 role :web, %w{deploy@52.199.164.123}
+role :db, %w{deploy@52.199.164.123}
 
 
 
