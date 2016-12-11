@@ -19,7 +19,7 @@ environment ENV.fetch("RAILS_ENV") { "development" }
 app_dir = File.expand_path("../..", __FILE__)
 
 # sock
-bind "unix:///#{app_dir}/tmp/sockets/puma.sock"
+bind "unix:///#{app_dir}/tmp/puma.sock"
 
 # Specifies the number of `workers` to boot in clustered mode.
 # Workers are forked webserver processes. If using threads and workers together
